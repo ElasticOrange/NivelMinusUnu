@@ -1,9 +1,9 @@
 $(document).ready(function()
 {
-	$(window).bind( 'scroll', function(e) 
+    $(window).bind( 'scroll', function(e)
     {
-		parallaxScroll();
-	} );
+        parallaxScroll();
+    } );
 
     // Menu links
     $('#menu-1').click(function(e)
@@ -32,15 +32,15 @@ $(document).ready(function()
 
     $('#menu-5').click(function(e)
     {
-        $.scrollTo(1700, 1000);
+        $(document).scrollTo(1455, 1000);
         e.preventDefault();
     });
 
     $('#menu-6').click(function(e)
     {
-        $.scrollTo(2149, 1000);
+        $.scrollTo(1950, 1000);
         e.preventDefault();
-    });    
+    });
 
     // Galerie sala
     $('#galerie-sala').click(function(e)
@@ -172,14 +172,14 @@ $(document).ready(function()
                 }
             );
     });
-}); 
+});
 
 /* Scroll the background layers */
 
 function parallaxScroll()
 {
-	var scrolled = $(window).scrollTop();
-	$('#backgrounds').css('top',(0-(scrolled*1))+'px');
-	$('#middles').css('top',(0-(scrolled*2))+'px');
-	$('#foregrounds').css('top',(0-(scrolled*2.50))+'px');
-}			
+    var scrolled = $(window).scrollTop();
+    $('#backgrounds').css('top',(0-(scrolled*1))+'px');
+    $('#middles').css('top',(0-(scrolled*2))+'px');
+    $('#foregrounds').css('top',(0-(scrolled*2.50))+'px');
+}

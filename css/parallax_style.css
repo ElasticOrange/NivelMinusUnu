@@ -1,6 +1,6 @@
 body{
-	margin:0;
-	padding:0;
+    margin:0;
+    padding:0;
 }
 
 #facebook
@@ -53,7 +53,7 @@ body{
 
 #content
 {
-    height: 3070px;
+    height: 2970px;
     width: 989px;
     margin: 0 auto;
 }
@@ -62,7 +62,7 @@ body{
 {
     margin-left: auto;
     margin-right: auto;
-    width: 395px;    
+    width: 395px;
 }
 
 #main-character
@@ -75,9 +75,9 @@ body{
 
 #backgrounds
 {
-	z-index: 1;
-	top: 0;
-	width: 989px;
+    z-index: 1;
+    top: 0;
+    width: 989px;
 }
 
 
@@ -140,47 +140,39 @@ body{
     left: 772px;
     width: 109px;
     height: 139px;
-    z-index: 101;   
-}
-
-/* Scena cabina telefonica */
-#m4-1
-{
-    position: absolute;
-    top: 2900px;
-    left: 0px;
+    z-index: 101;
 }
 
 /* Scena fidelizare */
 #m5-1
 {
     position: absolute;
-    top: 3400px;
+    top: 2900px;
     left: 0px;
 }
 
 #m5-galerie-expo
 {
     position: absolute;
-    top: 3520px;
+    top: 3020px;
     left: 200px;
     width: 210px;
     height: 100px;
-    z-index: 101; 
+    z-index: 101;
 }
 
 /* Scena scoala */
 #m6-1
 {
     position: absolute;
-    top: 4220px;
+    top: 3820px;
     left: 0px;
 }
 
 #m7-1
 {
     position: absolute;
-    top: 5020px;
+    top: 4620px;
     left: 0px;
 }
 
@@ -191,7 +183,7 @@ body{
 #f7-1
 {
     position: absolute;
-    top: 5700px;
+    top: 5200px;
 }
 
 .preloader
