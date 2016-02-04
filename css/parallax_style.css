@@ -1,0 +1,200 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+#facebook
+{
+    position: relative;
+    top: 34px;
+    left: 837px;
+    width: 50px;
+}
+
+#facebook a
+{
+    height: 35px;
+    width: 34px;
+    position: absolute;
+
+}
+
+#menu
+{
+    position: relative;
+    left: 261px;
+    top: 28px;
+    font-size: 16px;
+    height: 0px;
+    width: 600px;
+}
+
+#menu ul
+{
+    list-style-type: none;
+}
+
+#menu a
+{
+    text-decoration: none;
+    margin-left: 15px;
+    color: #000;
+}
+
+#menu a:hover
+{
+    color: #a70000;
+}
+
+#menu a:active
+{
+    color: #a70000;
+}
+
+#content
+{
+    height: 3070px;
+    width: 989px;
+    margin: 0 auto;
+}
+
+#main-character-container
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 395px;    
+}
+
+#main-character
+{
+    position: fixed;
+    top: 350px;
+    z-index: 50;
+}
+
+
+#backgrounds
+{
+	z-index: 1;
+	top: 0;
+	width: 989px;
+}
+
+
+#middles
+{
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    width: 989px;
+}
+
+#foregrounds
+{
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    width: 989px;
+}
+
+/* Scene 1 */
+
+
+
+/* Scene 2 */
+
+
+/* Scena 1*/
+
+#m2-4
+{
+    position: absolute;
+    top: 1260px;
+    left: 0px;
+}
+
+
+
+/* Scena harta */
+#m3-1
+{
+    position: absolute;
+    top: 2000px;
+    left: 0px;
+}
+
+#m3-galerie-sala
+{
+    position: absolute;
+    top: 2182px;
+    left: 242px;
+    width: 239px;
+    height: 153px;
+    z-index: 101;
+}
+
+#m3-sonorizare
+{
+    position: absolute;
+    top: 2527px;
+    left: 772px;
+    width: 109px;
+    height: 139px;
+    z-index: 101;   
+}
+
+/* Scena cabina telefonica */
+#m4-1
+{
+    position: absolute;
+    top: 2900px;
+    left: 0px;
+}
+
+/* Scena fidelizare */
+#m5-1
+{
+    position: absolute;
+    top: 3400px;
+    left: 0px;
+}
+
+#m5-galerie-expo
+{
+    position: absolute;
+    top: 3520px;
+    left: 200px;
+    width: 210px;
+    height: 100px;
+    z-index: 101; 
+}
+
+/* Scena scoala */
+#m6-1
+{
+    position: absolute;
+    top: 4220px;
+    left: 0px;
+}
+
+#m7-1
+{
+    position: absolute;
+    top: 5020px;
+    left: 0px;
+}
+
+
+
+
+/* polaroid */
+#f7-1
+{
+    position: absolute;
+    top: 5700px;
+}
+
+.preloader
+{
+    display: none;
+}

@@ -1,0 +1,297 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<html class="no-js" lang="en"><!--<![endif]-->
+<head>
+    <title>NivelMinusUnu</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="sala repetitii, sala repetitii muzicale, repetitii muzicale, caut sala repetitii, instrumente muzicale, sonorizare, tobe, baterie, chitara, bass, clape, ukulele, pian">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+	
+    <link rel="stylesheet" href="css/fancybox/jquery.fancybox.css" type="text/css" media="screen">
+    <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+	
+    <!-- JS Code -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.scrollTo-min.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+	
+    <script>
+
+    var image_sources = new Array();
+
+    $(document).ready( function(){
+        $('#nav_acasa,#nav_sonorizare,#nav_repetitii,#nav_tarife,#nav_expunere,#nav_contact').mouseenter( function ( e )
+        {
+            image_sources[ $( this ).attr( 'id' ) ] = $( this ).attr( 'src' );
+            if ( $( this ).attr( 'src' ).search( /selected/i ) != -1 )
+            {
+                //alert( 'do nothing' );
+            }
+            else
+            {
+                var parts = $( this ).attr( 'src' ).split( "." );
+                var new_image = parts[0] + "_selected.png";
+                $( this ).attr( 'src', new_image );
+            }
+        } ).mouseleave( function( e )
+        {
+            $( this ).attr( 'src', image_sources[ $( this ).attr( 'id' ) ] );
+        } );
+    } );
+    </script>
+	<style type="text/css">@media print { #feedlyMiniIcon { display: none; } }</style>
+</head>
+
+<body>
+    <div class="everything">   
+        <div id="container">
+            
+        <div id="header">
+            <a href="/" id="logo">
+                <div></div>
+            </a>
+		</div>
+
+<div class="text_block_sonorizare">
+
+    <h3>Detalii echipament sonorizare:</h3>
+    <div class="clear"></div>
+    
+    <br />
+    <br />
+    <br />
+
+    <div class="row">
+        <div class="col left">
+            <h4>Amplificator chitara electrica MARSHALL MG101FX</h4>
+            <p>Amplificator chitara electrica cu putere 
+            de 100W, cu amplificare tranzistor de 
+            tip combo si alimentare prin retea. </p>
+
+            <p>Include 1 difuzor de 12 toli, 4 canale 
+            (storable), buton volum general si 
+            buton gain, 3 potentiometre, 9 efecte 
+            digitale 5X si FX Loop, cu intrare CD/MP3 
+            si iesire casca. </p>
+
+            <a target="_blank" href="http://marshallamps.com/product.asp?productId=138">Site producator</a>
+        </div>
+        <div class="col right">
+            <a class="thickbox" href="images/sonorizare/mari/marshall.jpg"><img src="images/sonorizare/mici/marshall.jpg" class="sonorizare_image" /></a>
+        </div>
+    </div>
+    <div class="clear"><hr></div>
+
+    <div class="row">
+        <div class="col right">
+            <h4>Amplificator chitara electrica FENDER FM212R</h4>
+            <p>Amplificator chitara electrica cu putere de 
+100W, Serie Frontman,cu amplificare 
+tranzistor de tip combo si alimentare prin 
+retea. Include 2 difuzoare de 12 toli, 
+buton volum general, 3 canale (normal, 
+drive si thomann drive), 3 potentiometre 
+si iesire casca. </p>
+            <a target="_blank" href="http://www.fender.com/en-RO/products/search.php?partno=2316500010">Site producator</a>
+        </div>
+        <div class="col left">
+            <a class="thickbox" href="images/sonorizare/mari/amplificator_fender.jpg"><img src="images/sonorizare/mici/amplificator_fender.jpg" class="sonorizare_image" /></a>
+        </div>
+    </div>
+    <div class="clear"><hr></div>
+	
+	  <div class="row">
+        <div class="col left">
+            <h4>Amplificator chitara electrica VOX AC15C1</h4>
+            <p>Combo, all tube, un difuzor Celestion de 12 inch, reverb pe arc, putere 15W.</p>
+            <a target="_blank" href="http://www.mcmusic.ro/chitare/amplificatoare/vox-ac15c1-amplificator-chitara-ac15c1.html">Site producator</a>
+        </div>
+        <div class="col right">
+            <a class="thickbox" href="images/sonorizare/mari/amplificator_vox.jpg"><img src="images/sonorizare/mici/amplificator_vox.jpg" class="sonorizare_image" /></a>
+        </div>
+    </div>
+    <div class="clear"><hr></div>
+	
+
+    <div class="row">
+        <div class="col right">
+            <h4>Boxa activa de banda larga BEHRINGER EUROLIVE B415DSP</h4>
+            <p>Include o amplificare de 400W RMS (320 LF 
++ 80 HF) si 600W la varf, difuzor joase/medii 
+de 15", difuzor inalte de 1.75" si diafragma 
+de titan, EQ dinamic pe 2 benzi, filtru low-cut 
+reglabil de 40- 160Hz (24 dB/Octava), banda 
+de frecvente de 40Hz - 20khz, crossover de 
+1.5 kHz, Butterworth, 24 dB/Octava, conexiuni 
+intrare 2 x XLR balansat MIC/LINIE, conexiune 
+iesire XLR balansat LINE OUT.</p>
+            <p></p>
+            <a target="_blank" href="http://www.behringer.com/EN/Products/B415DSP.aspx">Site producator</a>
+        </div>
+        <div class="col left">
+            <a class="thickbox" href="images/sonorizare/mari/BEHRINGER_EUROLIVE_B415DSP.jpg"><img src="images/sonorizare/mici/BEHRINGER_EUROLIVE_B415DSP.jpg" class="sonorizare_image" /></a>
+        </div>
+    </div>
+    <div class="clear"><hr></div>
+
+    <div class="row">
+        <div class="col left">
+            <h4>Amplificator bass combo HARTKE A100</h4>
+            <p>Putere de 100W, Speaker Hartke 
+Aluminium, EQ grafic pe 7 benzi, CD 
+Input, Limiter, thomann XLR Out simetric, 
+Input pasiv si activ, Efect de Loop, jack 
+pentru casti si chrome hardware</p>
+            <p></p>
+            <a target="_blank" href="http://www.samsontech.com/hartke/products/combos/a-series-combos/a100/">Site producator</a>
+        </div>
+        <div class="col right">
+            <a class="thickbox" href="images/sonorizare/mari/hartke.jpg"><img src="images/sonorizare/mici/hartke.jpg" class="sonorizare_image" /></a>
+        </div>
+    </div>
+    <div class="clear"><hr></div>
+
+    <div class="row">
+        <div class="col right">
+            <h4>Mixer analogic BEHRINGER XENYX X2442 USB</h4>
+            <p>Mixer audio, 10 intrari pentru microfon cu 
+            48V phantom power (selectabil), 4 canale 
+            stereo/dual, EQ de tip analog cu 3 benzi, 
+            medie parametrica, 4 auxiliare, 4 
+            subgrupe, procesor de efecte, port USB 
+            inclus. </p>
+                        <p>Este cel mai mare mixer din seria celor cu 
+            USB, are patru canale stereo, patru Aux 
+            Send si patru Aux Return dar si cate un 
+            potentiometru pentru compresor la fiecare 
+            canal mono. Banda de frecvente este intre 
+            10 - 150000 hz/ </p>
+            <a target="_blank" href="http://www.behringer.com/EN/Products/X2442USB.aspx">Site producator</a>
+        </div>
+        <div class="col left">
+            <a class="thickbox" href="images/sonorizare/mari/mixer.jpg"><img src="images/sonorizare/mici/mixer.jpg" class="sonorizare_image" /></a>
+        </div>
+    </div>
+    <div class="clear"><hr></div>
+
+    <div class="row">
+        <div class="col left">
+            <h4>Microfoane Shure Beta 58A</h4>
+            <p>SHURE BETA 58A microfon voce dinamic super-cardioid. Banda de frecvente: 50 Hz - 16 kHz. Sensibilitate: -51.5 dBV/Pa (2.6 mV). Impedanta: 290 Ohmi. </p>
+            <p></p>
+            <a target="_blank" href="http://www.thomann.de/ro/shure_slxbeta_58a_sets6.htm">Site producator</a>
+        </div>
+        <div class="col right">
+            <a class="thickbox" href="images/sonorizare/mari/microfon.jpg"><img src="images/sonorizare/mici/microfon.jpg" class="sonorizare_image" /></a>
+        </div>
+    </div>
+    <div class="clear"><hr></div>
+
+    <div class="row">
+        <div class="col right">
+            <h4>Set percutie DW PDP M5 STUDIO -BLUE- SHELL</h4>
+            <p>Tobe acustice cu model de tip PDP M5. 
+Toba mare: 18 x 22", floor tom 12X14",
+(14X16"). Tom- uri : (7X8"), 8 x 10", 
+9 x 12" si snare drums de 5x14". Percutia 
+este formate din  2 stative cinel, un stativ 
+fus cinel si un stativ snare, din otel. 
+Culoare: albastru si Black Fade. Tobele 
+acustice includ Lacquer Finish Shells 
+Thomann Premium, 7-ply Maple Shells, 
+Heads by REMO, STM - Suspension Tom 
+Mount System, True-Pitch Tension Rods, 
+Hardware Chrome.</p>
+            <p></p>
+            <a target="_blank" href="http://www.thomann.de/se/dw_pdp_m5_studioblueshell.htm">Site producator</a>
+        </div>
+        <div class="col left">
+            <a class="thickbox" href="images/sonorizare/mari/tobe.jpg"><img src="images/sonorizare/mici/tobe.jpg" class="sonorizare_image" /></a>
+        </div>
+    </div>
+    <div class="clear"><hr></div>
+
+    <div class="row">
+        <div class="col left">
+            <h4>Amplificator pentru chitara acustica Ibanez Troubadour T80</h4>
+            <p>Speaker 2 x 8" Custom-Made<br />
+Egalizator 3-Band cu Sweepable Midrange x 2<br />
+Switchable Chorus cu control al vitezei si calitatii<br />
+Reverb cu Level Control<br />
+Phase-Invert Switch<br />
+Phantom Power Switch<br />
+Mute Switch<br />
+Casti Out W/ Stereo FX<br />
+Stereo ballanced out</p>
+            <p></p>
+            <a target="_blank" href="http://www.ibanez.com/Electronics/model-T80">Site producator</a>
+        </div>
+        <div class="col right">
+            <a class="thickbox" href="images/sonorizare/mari/troubadour.jpg"><img src="images/sonorizare/mici/troubadour.jpg" class="sonorizare_image" /></a>
+        </div>
+    </div>
+    <div class="clear"><hr></div>
+	
+    <div class="row">
+        <div class="col right">
+            <h4>Monitor activ de scena BEHRINGER EUROLIVE F1320D</h4>
+            <p>Monitor activ cu o putere de 300w (200w RMS) , 2 cai (1 difuzor 12" bass+acustic si 1 difuzor 1" pt
+inalte), banda de frecvente 60-16000 Hz, EQ propriu cu 3 benzi si volum, SPL maxim 115 decibeli, filtru feedback ajustabil, conectori intrare XLR si jack 6,3mm, conector iesire XLR, clasa D
+monitoare scena.</p>
+            <p></p>
+            <a target="_blank" href="http://www.behringer.com/EN/Products/F1320D.aspx">Site producator</a>
+        </div>
+        <div class="col left">
+            <a class="thickbox" href="images/sonorizare/mari/behringer_eurolive_F1320D.jpg"><img src="images/sonorizare/mici/behringer_eurolive_F1320D.jpg" class="sonorizare_image" /></a>
+        </div>
+    </div>
+    <div class="clear"><hr></div>
+
+</div>
+
+<script>
+
+ $('.thickbox').fancybox( {
+        openEffect      : 'elastic',
+        closeEffect     : 'elastic'
+    } );
+
+</script>
+
+
+
+    </div>
+    <div class="spacer_footer">&nbsp;</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-824924-13']);
+  _gaq.push(['_setDomainName', 'nivelminusunu.ro']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</div>
+</body>
+</html>
